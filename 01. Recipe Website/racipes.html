@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<style>
+    * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .Container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFF8F0;
+
+
+    }
+
+    .logoImage {
+        width: 50px;
+
+    }
+
+    .navContainer {
+        background-image: linear-gradient(135deg, #e2d1c3 0%, #fdfcfb 95%);
+        border-radius: 5px;
+        border: 2px solid black;
+    }
+
+    .navList {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        list-style: none;
+
+        width: 100%;
+
+
+
+        padding: 10px
+    }
+
+    #navName {
+        font-size: 45px;
+        font-family: "Black Ops One", system-ui;
+        color: #FF6B35;
+    }
+
+    #navBar{
+        display: flex;
+        gap: 20px;
+        font-size: 22px;
+        font-weight: bold; 
+    }
+
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+</style>
+
+
+<body>
+    <nav>
+        <div class="Container">
+            <div class="navContainer">
+
+
+                <ul class="navList">
+
+                    <li>
+                        <img class="logoImage" src="house-recipe-logo-png-transparent.png" alt="recipe logo">
+                    </li>
+
+                    <li>
+                        <p id="navName">House Recipe Dhaba</p>
+                    </li>
+                    <li id="navBar">
+                        <a href="#">Home</a>
+                        <a href="#">Contact</a>
+                        <a href="#">About</a>
+                    </li>
+
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+
+    <main>
+
+    </main>
+
+    <footer>
+
+    </footer>
+</body>
+
+</html>
