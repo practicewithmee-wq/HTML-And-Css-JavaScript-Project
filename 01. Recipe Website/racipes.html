@@ -10,101 +10,104 @@
     <link href="https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
-<style>
-    * {
-        margin: 0px;
-        padding: 0px;
-        box-sizing: border-box;
-    }
-
-    .Container {
-        width: 100vw;
-        height: 100vh;
-        background-color: #FFF8F0;
-
-
-    }
-
-    .logoImage {
-        width: 50px;
-
-    }
-
-    .navContainer {
-        background-image: linear-gradient(135deg, #e2d1c3 0%, #fdfcfb 95%);
-        border-radius: 5px;
-        border: 2px solid black;
-    }
-
-    .navList {
-
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-
-        list-style: none;
-
-        width: 100%;
-
-
-
-        padding: 10px
-    }
-
-    #navName {
-        font-size: 45px;
-        font-family: "Black Ops One", system-ui;
-        color: #FF6B35;
-    }
-
-    #navBar{
-        display: flex;
-        gap: 20px;
-        font-size: 22px;
-        font-weight: bold; 
-    }
-
-    a {
-        text-decoration: none;
-        color: #333333;
-    }
-</style>
-
 
 <body>
-    <nav>
-        <div class="Container">
+
+
+    <div class="Container">
+        <header>
             <div class="navContainer">
+                <nav>
+                    <ul class="navList">
+                        <li>
+                            <img class="logoImage" src="house-recipe-logo-png-transparent.png" alt="recipe logo">
+                        </li>
 
-
-                <ul class="navList">
-
-                    <li>
-                        <img class="logoImage" src="house-recipe-logo-png-transparent.png" alt="recipe logo">
-                    </li>
-
-                    <li>
-                        <p id="navName">House Recipe Dhaba</p>
-                    </li>
-                    <li id="navBar">
-                        <a href="#">Home</a>
-                        <a href="#">Contact</a>
-                        <a href="#">About</a>
-                    </li>
-
-                </ul>
-
+                        <li>
+                            <p id="navName">House Recipe Dhaba</p>
+                        </li>
+                        <li id="navBar">
+                            <a href="#">Home</a>
+                            <a href="#">Contact</a>
+                            <a href="#">About</a>
+                        </li>
+                    </ul>
+                </nav>
             </div>
-        </div>
-    </nav>
+        </header>
 
-    <main>
+        <main>
+            <div class="contantBox">
+                <section>
+                    <div class="item">
+                        <div class="leftBox">
+                            <img id="image1" src="cake.webp" alt="cake image">
+                            <img id="image2" src="rasgulla.webp" alt="rasgulla image">
+                            <!-- <img id="image3" src="dorayaki.jfif" alt="doracake image"> -->
 
-    </main>
+                        </div>
+                        <div class="rightBox">
+                            <div id="cakeRecipe">
+                                <h1>CAKE Recipe</h1>
+                                <div>
+                                    <h3>The 7 Essential Ingredients</h3>
+                                    <div >
+                                        <ul class="Ingredient">
+                                            <li>All-purpose flour (Maida): 1.5 cups</li>
+                                            <li>Granulated white sugar: 1 cup</li>
+                                            <li>Unsalted butter: ½ cup (softened to room temperature)</li>
+                                            <li>Eggs: 2 large (room temperature)</li>
+                                            <li>Milk: ½ cup (room temperature)</li>
+                                            <li>Vanilla extract: 2 teaspoons</li>
+                                            <li>Baking powder: 1.75 teaspoons</li>
+                                            <li>Salt: ¼ teaspoon</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
 
-    <footer>
+                            <div id="rasgullaRecipe">
+                                <h1>Rasgulla Recipe</h1>
+                                <div>
+                                    <h3>The 4 Essential Ingredients</h3>
+                                    <div>
+                                        <ul class="Ingredient">
+                                            <li>Sugar: 1.5 cups regular white sugar</li>
+                                            <li>Water: 4 cups water</li>
+                                            <li>Flavoring: 2-3 crushed green cardamoms or \(\frac{1}{4}\) teaspoon rose water (optional)</li>
+                                            <li>Ice Cubes: 10-15 cubes (for cooling the syrup and stopping the cooking process)</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </main>
 
-    </footer>
+        <!-- <footer class="footerBox">
+            <div class="footerCopyright">
+                <P>Copyright &copy; House Recipe Dhaba Pvt Ltd 2026 All Rights Reserved</P>
+            </div>
+            <div class="footerMedia">
+                <ul>
+                    <li>
+                        <a href="#">Instagram</a>
+                        <a href="#">Youtube</a>
+                        <a href="#">Discord</a>
+                        <a href="#">Facebook</a>
+
+                    </li>
+                </div>
+                    
+                </ul>
+            </div>
+        </footer> -->
+    </div>
+
+
+
 </body>
 
 </html>
