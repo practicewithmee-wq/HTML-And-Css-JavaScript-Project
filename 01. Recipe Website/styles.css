@@ -1,0 +1,165 @@
+ * {
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+    }
+
+    .Container {
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFF8F0;
+
+
+    }
+
+    .logoImage {
+        width: 50px;
+
+    }
+
+    .navContainer {
+        background: linear-gradient(90deg,rgba(131, 58, 180, 1) 0%, rgba(253, 29, 29, 1) 50%, rgba(252, 176, 69, 1) 100%);
+
+        border-radius: 0px 0px 10px 10px;
+        border: 2px double rgb(233, 123, 60);
+        
+    }
+
+    .navList {
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        width: 100%;
+        padding: 10px
+    }
+
+    #navName {
+        font-size: 45px;
+        font-family: "Black Ops One", system-ui;
+        color: #FF6B35;
+    }
+
+    #navBar {
+        display: flex;
+        gap: 20px;
+        font-size: 22px;
+        font-weight: bold;
+    }
+
+    a {
+        text-decoration: none;
+        color: #333333;
+    }
+
+    .contantBox {
+        
+        width: 90%;
+
+        /* margin-left: 10%;
+        margin-right: 10%; */
+        margin: auto;
+
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+
+        box-shadow: 3px 2px 30px rgb(48, 46, 46);
+
+        
+    }
+
+     #cakeRecipe {
+        width: 700px;
+        height: 210px;
+       
+    }
+
+    #rasgullaRecipe { 
+        width: 700px;
+        height: 210px;
+    }
+
+    #dorayakiRecipe {  
+        width: 700px;
+        height: 210px;
+    } 
+
+    .item {
+        display: flex;
+         
+        justify-content: space-between;
+        align-items: center;
+
+       
+    }
+
+    .leftBox {
+        display: flex;
+        flex-direction: column;
+        gap: 25px;
+        
+        
+    }
+
+    .leftBox img{
+        transition: all 0.15s linear 0s;
+    }
+
+    .leftBox img:hover {
+        transform: scale(1.1);
+    }
+
+    #image1 {
+        margin-left: 30px;
+        margin-top: 20px;
+        width: 200px;
+        height: 230px;
+        border-radius: 20px;
+       
+    }
+
+    #image2 {
+        margin-left: 30px;
+        width: 200px;
+        height: 230px;
+        border-radius: 20px;
+       
+    }
+
+   #image3 {
+        margin-left: 30px;
+        margin-bottom: 20px;
+        width: 200px;
+        height: 230px;
+        border-radius: 20px;
+       
+    }
+
+    .rightBox{
+        
+        display: flex;
+        flex-direction: column;   
+    }
+
+
+    h1 {
+        text-align: center;
+        font-size: 30px;
+        color: #ff0000;
+    }
+
+    h3 {
+        text-align: center;
+        font-size: 25px;
+        color: #F5788B;
+    }
+   
+
+ /* .footerCopyright {
+        border: 2px solid green;
+        width: 100%;
+        text-align: center;
+
+    } */
