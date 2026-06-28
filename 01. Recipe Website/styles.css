@@ -8,6 +8,7 @@
         width: 100vw;
         height: 100vh;
         background-color: #FFF8F0;
+        
 
 
     }
@@ -63,16 +64,17 @@
 
         display: flex;
         flex-direction: column;
-        gap: 30px;
+        gap: 40px;
 
         box-shadow: 3px 2px 30px rgb(48, 46, 46);
 
         
     }
 
-     #cakeRecipe {
+      #cakeRecipe {
         width: 700px;
-        height: 210px;
+        height: 210px; 
+       
        
     }
 
@@ -84,7 +86,9 @@
     #dorayakiRecipe {  
         width: 700px;
         height: 210px;
-    } 
+    }  
+
+
 
     .item {
         display: flex;
@@ -157,9 +161,15 @@
     }
    
 
- /* .footerCopyright {
-        border: 2px solid green;
+    .footerCopyright {
+        box-shadow: 2px 2px 10px rgb(44, 172, 223);
         width: 100%;
         text-align: center;
+        background-image: radial-gradient(circle 248px at center, #16d9e3 0%, #30c7ec 47%, #46aef7 100%);
+        color: white;
+        font-size: 23px;
+        
+    }
 
-    } */
+ 
+   
