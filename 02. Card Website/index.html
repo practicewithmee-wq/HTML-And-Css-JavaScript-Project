@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Card Website</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+</head>
+<style>
+    * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+
+    .containerBox{
+        width: 350px;
+        height: 600px;
+        background-color: white;
+        
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+        
+    }
+
+    .containerBox img {
+        width: 100%;
+        border-radius: 15px 15px 0px 0px ;
+        border: 2px solid white;
+    }
+
+    h2 {
+    
+        text-align: center;
+        
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight:bolder;
+    }
+
+</style>
+<body>
+
+    <div id="container">
+        <div class="containerBox">
+            <img src="/web_image.png" alt="web development image">
+
+            <h2>Full stack web Development</h2>
+
+        </div>
+    </div>
+</body>
+</html>
