@@ -1,0 +1,95 @@
+  * {
+        margin: 0%;
+        padding: 0%;
+        box-sizing: border-box;
+    }
+
+    #container {
+        width: 100vw;
+        height: 100vh;
+        background-image: radial-gradient(circle at center center, transparent,rgb(33,33,33)),repeating-linear-gradient(135deg, rgb(33,33,33) 0px, rgb(33,33,33) 2px,transparent 2px, transparent 10px,rgb(33,33,33) 10px, rgb(33,33,33) 11px,transparent 11px, transparent 21px),repeating-linear-gradient(45deg, rgb(47,47,47) 0px, rgb(47,47,47) 4px,transparent 4px, transparent 8px),linear-gradient(90deg, rgb(33,33,33),rgb(33,33,33));
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+    }
+
+    .containerBox{
+        width: 350px;
+        height: 600px;
+        background-color: white;
+        
+        border-radius: 15px;
+
+        display: flex;
+        flex-direction: column;
+        gap: 23px;
+        
+    }
+
+    .containerBox img {
+        width: 100%;
+        border-radius: 15px 15px 0px 0px ;
+        border: 2px solid white;
+    }
+
+    h2 {
+    
+        text-align: center;
+        
+        font-family:Arial, Helvetica, sans-serif;
+        font-size: 30px;
+        font-weight:bolder;
+    }
+
+    .containerBox p {
+        
+        width: 90%;
+       
+        margin: 0px 17.5px 0px 17.5px;
+        
+        font-size: 17px;
+        color: rgb(23, 206, 23);
+        
+    }
+
+    ul  {
+        
+        
+        line-height: 1.75;
+
+        list-style-type: none;
+
+        width: 90%;
+        margin-left: 17.5px;
+        margin-right: 17.5px;;
+        
+    }
+
+    a{
+        text-decoration: none;
+    }
+
+    button {
+        
+        width: 90%;
+        height: 40px;
+
+        margin-left: 17.5px;
+        margin-right: 17.5px;
+        
+        
+        
+        border-radius: 7px;
+        border: 1px solid rgb(4, 138, 248);
+
+        box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+
+    }
+
+    button:hover {
+        background-color: rgb(4, 138, 248);
+        color: white;
+    }
