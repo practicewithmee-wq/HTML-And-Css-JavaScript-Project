@@ -1,75 +1,166 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Blog Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
 </head>
 <style>
-
-    *{
+    * {
         margin: 0%;
         padding: 0%;
         box-sizing: border-box;
     }
 
     body {
-        width: 100vw;
+        width: 100%;
         height: 200vh;
 
-        background-image: radial-gradient(circle at center center, rgba(217, 217, 217,0.05) 0%, rgba(217, 217, 217,0.05) 15%,rgba(197, 197, 197,0.05) 15%, rgba(197, 197, 197,0.05) 34%,rgba(178, 178, 178,0.05) 34%, rgba(178, 178, 178,0.05) 51%,rgba(237, 237, 237,0.05) 51%, rgba(237, 237, 237,0.05) 75%,rgba(138, 138, 138,0.05) 75%, rgba(138, 138, 138,0.05) 89%,rgba(158, 158, 158,0.05) 89%, rgba(158, 158, 158,0.05) 100%),radial-gradient(circle at center center, rgb(255,255,255) 0%, rgb(255,255,255) 6%,rgb(255,255,255) 6%, rgb(255,255,255) 12%,rgb(255,255,255) 12%, rgb(255,255,255) 31%,rgb(255,255,255) 31%, rgb(255,255,255) 92%,rgb(255,255,255) 92%, rgb(255,255,255) 97%,rgb(255,255,255) 97%, rgb(255,255,255) 100%); background-size: 42px 42px;
+        background-image: radial-gradient(circle at center center, rgba(217, 217, 217, 0.05) 0%, rgba(217, 217, 217, 0.05) 15%, rgba(197, 197, 197, 0.05) 15%, rgba(197, 197, 197, 0.05) 34%, rgba(178, 178, 178, 0.05) 34%, rgba(178, 178, 178, 0.05) 51%, rgba(237, 237, 237, 0.05) 51%, rgba(237, 237, 237, 0.05) 75%, rgba(138, 138, 138, 0.05) 75%, rgba(138, 138, 138, 0.05) 89%, rgba(158, 158, 158, 0.05) 89%, rgba(158, 158, 158, 0.05) 100%), radial-gradient(circle at center center, rgb(255, 255, 255) 0%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 6%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 12%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 31%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 92%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 97%, rgb(255, 255, 255) 100%);
+        background-size: 42px 42px;
     }
 
     #container {
+        border: 2px solid green;
         background-color: rgb(51, 47, 47);
         width: 100%;
         height: 50vh;
-        padding: 20px;
+        padding: 40px;
         display: grid;
-        gap: 10px; 
-        
+        row-gap: 10px;
+
+        grid-template-rows: 1fr 2fr ;
+        grid-template-columns: 1fr ;
     }
 
-    .containerBox {
-        border: 2px solid red;
-        display: flex;
-        
-    }
+   
 
     .logoName {
+
+
         grid-column-start: 1;
         grid-column-end: 4;
+
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+        font-family: "Google Sans", sans-serif;
+
+      
+
+    }
+
+    a {
+        text-decoration: none;
+        font-size: 35px;
+
+
+    }
+
+    button {
+      
+       
+        /* font-size: 20px; */
+        background-color: rgb(226, 151, 10);
+
+        border: 1px solid rgb(226, 151, 10);;
+        border-radius: 10px;
+
+        
+
+        padding: 12.5px;
+        
+        
+        
+        color: white;
+
+        font-family: "Google Sans", sans-serif;
+
+
+    }
+
+    .split-letter1 {
+        color: rgb(255, 166, 1);
+        font-weight: bold;
+    }
+
+    .split-letter2 {
+        color: rgb(255, 255, 255);
+        font-weight: bold;
+    }
+
+    .split-letter3 {
+        color: rgb(3, 196, 29);
+        font-weight: bold;
     }
 
     .heading {
         grid-column-start: 1;
         grid-column-end: 4;
+
+        display: flex;
+        flex-direction: column;
+        row-gap: 5px;
+        
+        
+        justify-content: center;
+        align-items: center;
+        
     }
 
+    .heading h3 {
+        color: rgb(194, 194, 194);
+        font-size: 50px;
+        font-family: "Google Sans", sans-serif;
+        /* font-variation-settings: "GRAD" 200; */ 
+        text-align: center;
+    }
 
+    .heading p {
+        font-size: 20px;
+        font-family: "Google Sans", sans-serif;
+        font-weight: 500;
+        color: white
+    }
 </style>
+
 <body>
 
     <div id="container">
-        <div class="containerBox logoName">
-            <a href="#">Blog</a>
+        <div class="containerBox">
+            <div class="logoName">
+                <a href="#"><span class="split-letter1">Pactice</span><span class="split-letter2">With</span><span class="split-letter3">Mee</span></a>
 
-            <a href="#"><button>Login</button></a>
+                <a href="#"><button>LOGIN</button></a>
+            </div>
         </div>
 
 
-        <div class="containerBox heading">Heading</div>
-       
+        <div class="heading">
+            <h3>The<span class="split-letter1"> Pactice</span><span class="split-letter2">With</span><span class="split-letter3">Mee </span>Blog</h3>
+
+            <p>Your source great contant</p>
+            
+        </div>
+
         
-        
+
+
+
 
 
     </div>
 
-    
+
 
 
 
 
 </body>
+
 </html>
