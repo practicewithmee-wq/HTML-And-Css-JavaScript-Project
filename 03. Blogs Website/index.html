@@ -8,30 +8,108 @@
     <link rel="stylesheet" href="styles.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Google+Sans:ital,opsz,wght@0,17..18,400..700;1,17..18,400..700&display=swap"
+        rel="stylesheet">
 
 </head>
+<style>
+    #containerItem {
+        background-color: blue;
+        width: 80%;
+        height: 250vh;
+        /* margin: 134.906px 134.906px 0px 134.906px; */
+        /* padding: 30px; */
+
+        /* margin: 134.906px; */
+        border-radius: 20px;
+        margin: 0 auto;
+       
+         display: grid;
+
+        
+        gap: 30px;
+
+        
+        grid-template-columns: repeat(4, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        
+
+        /* gap: 30px; */
+
+    }
+    
+    .item1 {
+
+        border-radius: 20px;
+    
+        display: flex;
+        flex-direction: column;
+        
+        background-color: red;
+        /* width: 60%;
+        height: 70%; */
+
+
+        
+        
+    }
+
+    .item1 img{
+        padding: 10px;
+        width: 100%;
+        height: 40%;
+        border-radius: 20px;
+    }
+</style>
 
 <body>
 
-    <div id="container">
-        <div class="containerBox">
-            <div class="logoName">
-                <a href="#"><span class="split-letter1">Pactice</span><span class="split-letter2">With</span><span class="split-letter3">Mee</span></a>
+    <div id="mainContainer">
+        <div id="container">
+            <div class="containerBox">
+                <div class="logoName">
+                    <a href="#"><span class="split-letter1">Pactice</span><span class="split-letter2">With</span><span
+                            class="split-letter3">Mee</span></a>
 
-                <a href="#"><button>LOGIN</button></a>
+                    <a href="#"><button>LOGIN</button></a>
+                </div>
+            </div>
+
+
+            <div class="heading">
+                <h3>The<span class="split-letter1"> Pactice</span><span class="split-letter2">With</span><span
+                        class="split-letter3">Mee </span>Blog</h3>
+
+                <p>Your source great contant</p>
             </div>
         </div>
 
+        <div id="containerItem">
+            <div class="item1">
+                    <img src="/fruit1.webp" alt="fruit1">
 
-        <div class="heading">
-            <h3>The<span class="split-letter1"> Pactice</span><span class="split-letter2">With</span><span class="split-letter3">Mee </span>Blog</h3>
+                    <a href="#">Fruit</a>
+                </div>
 
-            <p>Your source great contant</p>
-            
+            <div class="item1">
+                    <!-- <img src="/fruit1.webp" alt="fruit1"> -->
+                </div>
+
+            <div class="item1">
+                    <!-- <img src="/fruit1.webp" alt="fruit1"> -->
+                </div>
+
+            <div class="item1">
+                    <!-- <img src="/fruit1.webp" alt="fruit1"> -->
+                </div>
+
+            <div class="item1">
+                    <!-- <img src="/fruit1.webp" alt="fruit1"> -->
+                </div>
+
+            </div>
         </div>
-
-        
 
 
 
