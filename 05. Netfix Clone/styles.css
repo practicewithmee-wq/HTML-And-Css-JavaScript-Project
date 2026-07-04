@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Rubik", sans-serif;
+}
+
+body {
+     background-image: url(black_panther.jpg);
+     background-repeat:round;
+    width: 100vw;
+    height: 100vh;
+   
+}
+
+
+#nav-container {
+    
+    display: flex;
+    justify-content: space-between;
+}
+
+.items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+    padding: 0px 30px 0px 20px;
+    border: 1px solid red;
+    
+    
+}
+
+.nav-tags {
+   
+    font-weight: 500;
+    font-size: 26px;
+    display: flex;
+    /* padding: 10px; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 50%;
+   
+    gap: 20px;
+}
+
+.nav-tags a {
+    color: white;
+
+}
+
+.nav-Logo {
+    width: 12%;
+
+}
+
+.nav-Buttons {
+    display: flex;
+    gap: 20px;
+
+}
+
+
+
+.button {
+    border-radius: 5px;
+    background-color: red;
+    font-size: 15px;
+    padding: 4px 9px;
+    border: none;
+    color: white;
+    font-weight: 500;
+   
+
+}
+
+.language {
+    border: 1px solid rgba(240, 234, 234);
+    border-radius: 5px;
+    padding: 4px 16px;
+    color: white;
+    background: transparent;
+}
+
