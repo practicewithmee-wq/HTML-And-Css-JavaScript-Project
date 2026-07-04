@@ -9,35 +9,52 @@
 }
 
 body {
-     background-image: url(black_panther.jpg);
+     background-image: url(/Images/black-panther-face.png);
      background-repeat:round;
     width: 100vw;
     height: 100vh;
+    
    
 }
 
 
 #nav-container {
+     /* background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.3) 70%,
+    rgba(0, 0, 0, 0) 100%
+  ); */
     
     display: flex;
     justify-content: space-between;
 }
 
 .items {
+   
+
+ /* background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 1) 0%,
+    rgba(0, 0, 0, 0.5) 50%,
+    rgba(0, 0, 0, 0.3) 70%,
+    rgba(0, 0, 0, 0) 100%
+  ); */
+    
     display: flex;
     justify-content: space-between;
     align-items: center;
     gap: 10px;
-    padding: 0px 30px 0px 20px;
-    border: 1px solid red;
-    
+    padding: 0px 80px 0px 60px;
+   
     
 }
 
 .nav-tags {
    
-    font-weight: 500;
-    font-size: 26px;
+    font-weight: 400;
+    font-size: 20px;
     display: flex;
     /* padding: 10px; */
     justify-content: center;
@@ -54,7 +71,9 @@ body {
 }
 
 .nav-Logo {
-    width: 12%;
+    
+    width: 15%;
+    
 
 }
 
@@ -79,10 +98,97 @@ body {
 }
 
 .language {
-    border: 1px solid rgba(240, 234, 234);
+    border: 1px solid rgb(255, 255, 255);
     border-radius: 5px;
+    font-weight: 500;
     padding: 4px 16px;
-    color: white;
+    color: rgb(255, 255, 255);
     background: transparent;
 }
 
+.body-Container {
+    
+    
+    width: 40%;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+  
+    
+   
+    gap: 10px;
+    
+}
+
+.time-date ul{
+    width: 100%;
+    
+    
+    color: rgb(158, 150, 150);
+    font-size: 16px;
+
+    display: flex;
+    justify-content: center;
+  
+    list-style: none;
+    /* border-left: 1px solid white; */
+    
+    
+}
+
+
+.time-date a {
+    background-color: red;
+}
+
+.time-date li {
+    padding: 5px 10px 5px 10px; 
+   
+}
+
+.LF {
+    color: white;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: rgb(255, 0, 0);
+    border-radius: 5px;
+   
+
+    
+}
+
+.left-Border {
+    border-left: 1px solid white;
+    
+}
+
+.right-Border {
+    border-right: 1px solid white;
+}
+
+
+.name-Logo {
+    
+    width: 100%;
+    height: 20%;
+    object-fit: cover;
+    
+}
+
+.para {
+    
+    
+     display: flex;
+    justify-content:right;
+    align-items: center;
+}
+
+.para p {
+    width: 73%;
+    
+    
+   
+    color: white;
+}
