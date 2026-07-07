@@ -40,6 +40,7 @@ body {
     
     width: 100%;
     height: 300vh;
+    background-color: rgb(0, 0, 0);
 }
 
 #nav-Container {
@@ -61,6 +62,7 @@ body {
     background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(https://assets.nflxext.com/ffe/siteui/vlv3/2f42605e-e786-4a06-8612-ebc67c55ba6c/web/IN-en-20260629-TRIFECTA-perspective_76b17e8c-cff9-4c65-9938-08ca5029be6b_large.jpg);
 
     background-repeat: no-repeat;
+    
 
     
 }
@@ -68,6 +70,7 @@ body {
 .items {
     
    width: 100%;
+   
    
 
     background: linear-gradient( rgba(0, 0, 0, 0.7) 30%, rgba(0, 0, 0, 0.7) 30%,);
@@ -126,3 +129,52 @@ body {
     background: transparent;
 }
 
+.curve-Border {
+    
+    height: 15%;
+    position: absolute;
+    width: 100%;
+    
+    top: 95%;
+    border-top-left-radius: 100% ; 
+    border-top-right-radius: 100%;
+    border-top: 5px solid red;
+    border-bottom: none;
+    
+    /* background: linear-gradient(180deg,rgb(9, 23, 223) 0%, rgb(20, 77, 201) 15%, rgba(0, 0, 0, 1) 50%, rgba(0, 0, 0, 1) 100%); */
+    background: radial-gradient(50% 500% at 50% -420%, rgba(64, 97, 231, 0.4) 80%, rgba(0, 0, 0, 0.1) 100%), black;
+    
+    
+}
+
+.tranding {
+    
+    width: 100%;
+    position: relative;
+    
+  
+}
+
+h1 {
+    border: 1px solid red;
+    display: flex;
+    
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    width: 70%;
+    margin: auto;
+    color: white;
+    
+}
+
+.main-Container {
+    border: 1px solid rgb(9, 255, 0);
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    gap: 20px;
+}
+
+img {
+    width: 10rem;
+
+}
