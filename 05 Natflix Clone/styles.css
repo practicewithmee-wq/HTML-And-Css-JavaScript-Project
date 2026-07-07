@@ -6,6 +6,8 @@
     padding: 0px;
 
     box-sizing: border-box;
+
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
    
 }
 
@@ -93,7 +95,7 @@ body {
 .nav-Logo {
     
 
-    width: 15em;
+    width: 12em;
     
 
 }
@@ -134,7 +136,7 @@ body {
     height: 15%;
     position: absolute;
     width: 100%;
-    
+   
     top: 95%;
     border-top-left-radius: 100% ; 
     border-top-right-radius: 100%;
@@ -155,11 +157,11 @@ body {
   
 }
 
-h1 {
+.tranding h1 {
     border: 1px solid red;
     display: flex;
     
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+    
     width: 70%;
     margin: auto;
     color: white;
@@ -177,4 +179,91 @@ h1 {
 img {
     width: 10rem;
 
+}
+
+#heading {
+    width: 80%;
+    height: 55%;
+    margin: auto;
+    
+    
+}
+
+.heading {
+   
+    width: 50%;
+    height: 100%;
+    margin: auto;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content:flex-end;
+    align-items: center;
+    text-align: center;
+   
+    gap: 35px;
+
+}
+
+#heading h1 {
+    color: white;
+    font-size: 3.75rem;
+    padding: 0 30px;
+}
+
+#heading h4 {
+    color: white;
+    font-size: 1.25rem;
+}
+
+#heading p {
+    color: white;
+    font-size: 1rem;
+}
+
+#fname {
+    
+    background-color: rgba(0, 0, 0, 0.5) ;
+    border: 1px solid red;
+    width: 25rem;
+    padding: 17px 15px;
+    border-radius: 0.3rem;
+    
+}
+
+.fname {
+    
+    
+    color: white;
+    font-weight: bold;
+}
+
+.row-Btn {
+    width: 60%;
+    
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row;
+    
+
+    margin: 20px auto;
+   
+
+}
+
+a {
+    padding: 13px 30px 13px 30px;
+    border: none;
+    text-align: center;
+    text-decoration: none;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+
+    border-radius: 0.5rem;
 }
