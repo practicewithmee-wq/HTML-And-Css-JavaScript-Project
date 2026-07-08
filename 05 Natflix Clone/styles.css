@@ -149,37 +149,7 @@ body {
     
 }
 
-.tranding {
-    
-    width: 100%;
-    position: relative;
-    
-  
-}
 
-.tranding h1 {
-    border: 1px solid red;
-    display: flex;
-    
-    
-    width: 70%;
-    margin: auto;
-    color: white;
-    
-}
-
-.main-Container {
-    border: 1px solid rgb(9, 255, 0);
-    margin: 20px auto;
-    width: 70%;
-    display: flex;
-    gap: 20px;
-}
-
-img {
-    width: 10rem;
-
-}
 
 #heading {
     width: 80%;
@@ -266,4 +236,42 @@ a {
     font-size: 20px;
 
     border-radius: 0.5rem;
+}
+
+.tranding {
+    
+    width: 100%;
+    position: relative;
+    
+  
+}
+
+.tranding h1 {
+    border: 1px solid red;
+    display: flex;
+    
+    
+    width: 70%;
+    margin: auto;
+    color: white;
+    
+}
+
+.main-Container {
+   
+    margin: 20px auto;
+    width: 70%;
+    display: flex;
+    gap: 30px;
+}
+
+img {
+    width: 17.5%;
+    border-radius: 20px;
+
+}
+
+img:hover {
+    transform: scale(1.07);
+    transition: all 0.25s linear 0s;
 }
