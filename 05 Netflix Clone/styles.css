@@ -305,40 +305,129 @@ img:hover {
 } */
 
 .Join {
-    border: 1px solid green;
+   
     width: 60%;
-    height: 20%;
-    margin: 80px auto;
+    margin: 80px auto 20px auto;
     
     
 }
 
 .Join h1 {
     color: white;
+    
+
 }
 
 #box {
     color:white;
-    border: 1px solid blue;
+    
     display: flex;
-    gap: 20px;
-    width: 100%;
+
+    
+    width: 60%;
+    height: 12%;
+    margin: 20px auto;
+
+
+    
+   
+    /* width: 100%; */
     
 
     
 }
 
+
 .box1 {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    border-radius: 20px;
+    width: 25%;
+    padding: 24px 16px 150px 16px;
+    background-image: radial-gradient(circle at 71% 29%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 32%,transparent 32%, transparent 100%),radial-gradient(circle at 100% 82%, rgba(82, 82, 82,0.03) 0%, rgba(82, 82, 82,0.03) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 30% 35%, rgba(78, 78, 78,0.03) 0%, rgba(78, 78, 78,0.03) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 71% 54%, rgba(52, 52, 52,0.03) 0%, rgba(52, 52, 52,0.03) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 17% 19%, rgba(202, 202, 202,0.03) 0%, rgba(202, 202, 202,0.03) 83%,transparent 83%, transparent 100%),radial-gradient(circle at 28% 30%, rgba(219, 219, 219,0.03) 0%, rgba(219, 219, 219,0.03) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 56% 19%, rgba(155, 155, 155,0.03) 0%, rgba(155, 155, 155,0.03) 33%,transparent 33%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+
+.box1 h3 {
+    font-weight: bold;
+    font-size: 25px;
+
+    
+}
+
+.box1 p {
+    font-size: 16px;
+    color: rgb(168, 160, 160);
+    font-weight: 500;
+}
+
+.box2 {
     display: flex;
     flex-direction: column;
     gap: 20px;
     border-radius: 20px;
     width: 25%;
-    padding: 24px 16px 200px 16px;
-    background: linear-gradient(139deg,rgba(76, 76, 156, 1) 0%, rgba(76, 76, 156, 1) 62%, rgba(138, 65, 65, 1) 94%, rgba(158, 40, 40, 1) 100%);
+    padding: 24px 16px 150px 16px;
+    background-image: radial-gradient(circle at 71% 29%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 32%,transparent 32%, transparent 100%),radial-gradient(circle at 100% 82%, rgba(82, 82, 82,0.03) 0%, rgba(82, 82, 82,0.03) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 30% 35%, rgba(78, 78, 78,0.03) 0%, rgba(78, 78, 78,0.03) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 71% 54%, rgba(52, 52, 52,0.03) 0%, rgba(52, 52, 52,0.03) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 17% 19%, rgba(202, 202, 202,0.03) 0%, rgba(202, 202, 202,0.03) 83%,transparent 83%, transparent 100%),radial-gradient(circle at 28% 30%, rgba(219, 219, 219,0.03) 0%, rgba(219, 219, 219,0.03) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 56% 19%, rgba(155, 155, 155,0.03) 0%, rgba(155, 155, 155,0.03) 33%,transparent 33%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
 }
 
-.box1 h3 {
+.box2 h3 {
     font-weight: bold;
+    font-size: 25px;
     
+}
+
+.box2 p {
+    font-size: 15.8px;
+    color: rgb(168, 160, 160);
+    font-weight: 500;
+}
+
+.box3 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    width: 25%;
+    padding: 24px 16px 150px 16px;
+    /* background: linear-gradient(139deg,rgba(76, 76, 156, 1) 0%, rgba(76, 76, 156, 1) 62%, rgba(138, 65, 65, 1) 94%, rgba(158, 40, 40, 1) 100%); */
+
+    /* background-image: radial-gradient(circle at top right, rgb(78, 78, 78) 0%, rgb(78, 78, 78) 1%,rgb(72, 72, 72) 1%, rgb(72, 72, 72) 10%,rgb(65, 65, 65) 10%, rgb(65, 65, 65) 22%,rgb(59, 59, 59) 22%, rgb(59, 59, 59) 23%,rgb(53, 53, 53) 23%, rgb(53, 53, 53) 28%,rgb(46, 46, 46) 28%, rgb(46, 46, 46) 37%,rgb(40, 40, 40) 37%, rgb(40, 40, 40) 100%); */
+
+    background-image: radial-gradient(circle at 71% 29%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 32%,transparent 32%, transparent 100%),radial-gradient(circle at 100% 82%, rgba(82, 82, 82,0.03) 0%, rgba(82, 82, 82,0.03) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 30% 35%, rgba(78, 78, 78,0.03) 0%, rgba(78, 78, 78,0.03) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 71% 54%, rgba(52, 52, 52,0.03) 0%, rgba(52, 52, 52,0.03) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 17% 19%, rgba(202, 202, 202,0.03) 0%, rgba(202, 202, 202,0.03) 83%,transparent 83%, transparent 100%),radial-gradient(circle at 28% 30%, rgba(219, 219, 219,0.03) 0%, rgba(219, 219, 219,0.03) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 56% 19%, rgba(155, 155, 155,0.03) 0%, rgba(155, 155, 155,0.03) 33%,transparent 33%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+
+.box3 h3 {
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.box3 p {
+    font-size: 16px;
+    color: rgb(168, 160, 160);
+    font-weight: 500;
+}
+
+.box4 {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border-radius: 20px;
+    width: 25%;
+    padding: 24px 18px 150px 18px;
+    background-image: radial-gradient(circle at 71% 29%, rgba(250, 250, 250,0.03) 0%, rgba(250, 250, 250,0.03) 32%,transparent 32%, transparent 100%),radial-gradient(circle at 100% 82%, rgba(82, 82, 82,0.03) 0%, rgba(82, 82, 82,0.03) 26%,transparent 26%, transparent 100%),radial-gradient(circle at 30% 35%, rgba(78, 78, 78,0.03) 0%, rgba(78, 78, 78,0.03) 55%,transparent 55%, transparent 100%),radial-gradient(circle at 71% 54%, rgba(52, 52, 52,0.03) 0%, rgba(52, 52, 52,0.03) 13%,transparent 13%, transparent 100%),radial-gradient(circle at 17% 19%, rgba(202, 202, 202,0.03) 0%, rgba(202, 202, 202,0.03) 83%,transparent 83%, transparent 100%),radial-gradient(circle at 28% 30%, rgba(219, 219, 219,0.03) 0%, rgba(219, 219, 219,0.03) 39%,transparent 39%, transparent 100%),radial-gradient(circle at 56% 19%, rgba(155, 155, 155,0.03) 0%, rgba(155, 155, 155,0.03) 33%,transparent 33%, transparent 100%),linear-gradient(90deg, rgb(0,0,0),rgb(0,0,0));
+}
+
+.box4 h3 {
+    font-weight: bold;
+    font-size: 25px;
+    
+}
+
+.box4 p {
+    font-size: 15.7px;
+    color: rgb(168, 160, 160);
+    font-weight: 500;
 }
